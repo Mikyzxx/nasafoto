@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const NASA_API_KEY = process.env.NASA_API_KEY || "APY_KEY"; // API Key aqui
 
-app.use(cors()); // Para permitir solicitudes desde el frontend
+// app.use(cors()); // Para permitir solicitudes desde el frontend
 app.use(express.json());
 app.use(express.static("public"));
 
